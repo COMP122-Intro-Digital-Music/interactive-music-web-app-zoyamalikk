@@ -1,24 +1,33 @@
-[
+
   {
-    "name": "new preset",
+    "name": "synth present ",
     "type": "Synth",
     "settings": {
       "volume": "0",
-      "detune": "2",
-      "portamento": "0.1",
+      "detune": "4",
+      "portamento": "0.5",
       "envelope": {
-        "attack": "0.01",
-        "attackCurve": "linear",
-        "decay": "0.1",
+        "attack": "0.14",
+        "attackCurve": "sine",
+        "decay": "0.13",
         "decayCurve": "exponential",
         "release": "1",
-        "releaseCurve": "exponential",
-        "sustain": "0.3"
+        "releaseCurve": "bounce",
+        "sustain": "0.45"
       },
       "oscillator": {
-        "partialCount": "1",
+        "partialCount": "5",
+        "partials": [
+          "0.69",
+          "0.91",
+          "1",
+          "0.72",
+          "0.97"
+        ],
         "phase": 0,
-        "type": "triangle1"
+        "type": "fatcustom",
+        "count": "4",
+        "spread": "25"
       }
     }
   },
